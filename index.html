@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <title>Resume</title>
+        <style type="text/tailwindcss">
+            @theme {
+                --color-clifford: #da373d;
+                --color-gray-100: #E5E5E5;
+                --color-gray-400: #999999;
+                --color-gray-800: #333333;
+                --breakpoint-xs: 500px;
+                --font-poppins: 'Poppins', sans-serif;
+            }
+        </style>
+    </head>
+    <body class="font-poppins">
+<!--    HEADER SECTION-->
+        <section class="bg-gray-800 mb-6">
+            <nav class="container max-w-screen-xl mx-auto flex items-center justify-between px-10 py-4">
+                <ul class="hidden lg:flex items-center gap-8 text-sm text-gray-400 font-medium">
+                    <li><a href="#">ABOUT ME</a></li>
+                    <li><a href="#">SKILLS</a></li>
+                    <li><a href="#">EDUCATION</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">LANGUAGES</a></li>
+                    <li><a href="#">HOBBIES</a></li>
+                </ul>
+                <svg class="lg:hidden" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 16 16">
+                    <path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5"/>
+                </svg>
+                <div class="flex items-center gap-2">
+                    <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17.4359 4.375C18.9193 4.77396 20.2718 5.55567 21.358 6.64184C22.4441 7.72801 23.2258 9.08051 23.6248 10.5639" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16.5306 7.75687C17.4205 7.99625 18.2318 8.46521 18.8833 9.11678C19.5349 9.76835 20.0039 10.5797 20.2433 11.4695" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M10.115 13.6517C11.0224 15.5074 12.5263 17.0049 14.3859 17.9042C14.522 17.9688 14.6727 17.9966 14.8229 17.9851C14.9731 17.9736 15.1178 17.9231 15.2425 17.8386L17.9812 16.0134C18.1022 15.9326 18.2414 15.8833 18.3862 15.8698C18.5311 15.8564 18.677 15.8793 18.8107 15.9364L23.9339 18.1326C24.1079 18.2065 24.2532 18.335 24.3479 18.4987C24.4426 18.6623 24.4815 18.8523 24.4589 19.04C24.2967 20.307 23.6784 21.4714 22.7196 22.3154C21.7608 23.1593 20.5273 23.6249 19.25 23.625C15.3049 23.625 11.5214 22.0578 8.73179 19.2682C5.94218 16.4786 4.375 12.6951 4.375 8.75C4.37512 7.47279 4.84074 6.23941 5.68471 5.28077C6.52867 4.32213 7.6931 3.70396 8.96 3.542C9.14771 3.51936 9.33769 3.55832 9.50134 3.653C9.66499 3.74769 9.79345 3.89298 9.86738 4.067L12.0654 9.1945C12.1219 9.32698 12.1449 9.47137 12.1322 9.61485C12.1195 9.75833 12.0716 9.89647 11.9928 10.017L10.1728 12.7977C10.0901 12.923 10.0414 13.0675 10.0313 13.2171C10.0212 13.3668 10.05 13.5165 10.115 13.6517V13.6517Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <a href="tel:+998(93)639-20-03" class="font-medium text-sm text-white">+998 (93) 639-20-03</a>
+                </div>
+            </nav>
+        </section>
+<!--    /HEADER SECTION-->
+
+<!--    HOME SECTION-->
+        <section class="container max-w-screen-xl my-5 mx-auto">
+            <div class="flex flex-col md:flex-row items-center sm:justify-between px-10 gap-5">
+                <div>
+                    <h1 class="text-3xl md:text-4xl font-semibold uppercase ">Mansur Utkirovich</h1>
+                    <h3 class="text-xl font-medium text-blue-400 ">Software Developer</h3>
+                </div>
+                <div class="mr-10">
+                    <img class="w-50 h-50 rounded-full" src="./images/IMG_20231220_221654_166.jpg"  alt="profile image"/>
+                </div>
+            </div>
+        </section>
+<!--    /HOME SECTION-->
+
+<!--    ABOUT ME SECTION-->
+        <section class="bg-gray-100">
+            <div class="container max-w-screen-xl p-10 mx-auto my-5">
+                <h3 class="text-2xl font-medium uppercase mb-5">About Me</h3>
+                <p class="text-sm leading-[1.5] pl-2">I am a motivated and passionate Full-Stack Web Developer with a strong interest in visual design. I enjoy creating modern, responsive, and user-friendly websites while combining both programming and design skills.<span class="hidden sm:inline"> Alongside development, I also work with CorelDraw and Photoshop, which helps me build clean and visually appealing interfaces. I constantly learn new technologies and improve my coding abilities to become a highly skilled professional in the future. My long-term goal is to establish myself as a strong and reliable software developer, contributing to real projects and creating digital solutions that bring value to people.</span></p>
+            </div>
+        </section>
+<!--    /ABOUT ME SECTION-->
+
+        <section class="container max-w-screen-xl grid grid-cols-12 gap-5 px-4 md:px-10 mx-auto py-6">
+            <!--    SKILLS SECTION-->
+            <div class="col-span-12 md:col-span-6 gap-5">
+                <h3 class="text-2xl font-medium uppercase mb-5">Skills</h3>
+                <ul class="flex flex-wrap text-sm gap-4 pl-2">
+                    <li class="bg-gray-600 rounded-lg px-3 py-1 text-white">HTML</li>
+                    <li class="bg-gray-600 rounded-lg px-3 py-1 text-white">Bootstrap</li>
+                    <li class="bg-gray-600 rounded-lg px-3 py-1 text-white">TailwindCSS</li>
+                    <li class="bg-gray-600 rounded-lg px-3 py-1 text-white">CSS</li>
+                    <li class="bg-gray-600 rounded-lg px-3 py-1 text-white">JavaScript</li>
+                    <li class="bg-gray-600 rounded-lg px-3 py-1 text-white">PHP</li>
+                    <li class="bg-gray-600 rounded-lg px-3 py-1 text-white">Symfony</li>
+                    <li class="bg-gray-600 rounded-lg px-3 py-1 text-white">Git</li>
+                    <li class="bg-gray-600 rounded-lg px-3 py-1 text-white">MySQL</li>
+                    <li class="bg-gray-600 rounded-lg px-3 py-1 text-white">Docker</li>
+                    <li class="bg-gray-600 rounded-lg px-3 py-1 text-white">Linux</li>
+                    <li class="bg-gray-600 rounded-lg px-3 py-1 text-white">C#</li>
+                    <li class="bg-gray-600 rounded-lg px-3 py-1 text-white">.NET Framework</li>
+                </ul>
+            </div>
+            <!--    /SKILLS SECTION-->
+
+            <!--    HOBBIES SECTION-->
+            <div class="hidden md:table-column col-span-12 md:col-span-6 gap-5">
+                <h3 class="text-2xl font-medium uppercase mb-5">Hobbies</h3>
+                <ul class="flex flex-col font-medium text-sm gap-4">
+                    <li class="flex gap-2 items-center">
+                        — Playing chess
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g fill="none" fill-rule="evenodd"><path d="m12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M7 2h3c2.222 0 5.757 1.108 6.949 4.684c.545 1.636.322 3.047.096 4.481q-.03.18-.057.362c-.217 1.414-.43 3.078-.125 5.473H18a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1.106c.232-1.144.9-2.718 2.564-4.356c.182-.18.29-.387.335-.592A25 25 0 0 1 6.7 13.79a1.48 1.48 0 0 1-1.64-.316l-1.477-1.477a1.5 1.5 0 0 1-.188-1.893l3.451-5.176l-.74-1.48A1 1 0 0 1 7 2m2 7a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/></g>
+                        </svg>
+                    </li>
+                    <li class="flex gap-2 items-center">
+                        — Read a book
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M21.5 5.134a1 1 0 0 1 .493.748L22 6v13a1 1 0 0 1-1.5.866A8 8 0 0 0 13 19.6V4.426a10 10 0 0 1 8.5.708M11 4.427l.001 15.174a8 8 0 0 0-7.234.117l-.327.18l-.103.044l-.049.016l-.11.026l-.061.01L3 20h-.042l-.11-.012l-.077-.014l-.108-.032l-.126-.056l-.095-.056l-.089-.067l-.06-.056l-.073-.082l-.064-.089l-.022-.036l-.032-.06l-.044-.103l-.016-.049l-.026-.11l-.01-.061l-.004-.049L2 6a1 1 0 0 1 .5-.866a10 10 0 0 1 8.5-.707"/>
+                        </svg>
+                    </li>
+                    <li class="flex gap-2 items-center">
+                        — Listening to music
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g fill="none" fill-rule="evenodd"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M18.671 3.208A2 2 0 0 1 21 5.18V17a4 4 0 1 1-2-3.465V9.18L9 10.847V18q0 .09-.015.174A3.5 3.5 0 1 1 7 15.337v-8.49a2 2 0 0 1 1.671-1.973zM9 8.82l10-1.667V5.18L9 6.847z"/></g>
+                        </svg>
+                    </li>
+                    <li class="flex gap-2 items-center">
+                        — Solving algorithmic problems
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5"><path stroke-linecap="round" d="M10.5 2v2m3-2v2M8 6.5H6m2 3H6m12-3h-2m2 3h-2M13.333 4h-2.666C9.41 4 8.78 4 8.39 4.39C8 4.782 8 5.41 8 6.668v2.666c0 1.257 0 1.886.39 2.277c.391.39 1.02.39 2.277.39h2.666c1.257 0 1.886 0 2.277-.39c.39-.391.39-1.02.39-2.277V6.667c0-1.257 0-1.886-.39-2.276C15.219 4 14.59 4 13.333 4"/><path d="M3.617 21.924c.184.076.417.076.883.076s.699 0 .883-.076a1 1 0 0 0 .54-.541C6 21.199 6 20.966 6 20.5s0-.699-.076-.883a1 1 0 0 0-.541-.54C5.199 19 4.966 19 4.5 19s-.699 0-.883.076a1 1 0 0 0-.54.541C3 19.801 3 20.034 3 20.5s0 .699.076.883a1 1 0 0 0 .541.54Zm7.5 0c.184.076.417.076.883.076s.699 0 .883-.076a1 1 0 0 0 .54-.541c.077-.184.077-.417.077-.883s0-.699-.076-.883a1 1 0 0 0-.541-.54C12.699 19 12.466 19 12 19s-.699 0-.883.076a1 1 0 0 0-.54.541c-.077.184-.077.417-.077.883s0 .699.076.883a1 1 0 0 0 .541.54Z"/><path stroke-linecap="round" d="M12 19v-7m-7.5 7c0-1.404 0-2.107.337-2.611a2 2 0 0 1 .552-.552C5.893 15.5 6.596 15.5 8 15.5h8c1.404 0 2.107 0 2.611.337c.218.146.406.334.552.552c.337.504.337 1.207.337 2.611"/><path d="M18.617 21.924c.184.076.417.076.883.076s.699 0 .883-.076a1 1 0 0 0 .54-.541c.077-.184.077-.417.077-.883s0-.699-.076-.883a1 1 0 0 0-.541-.54C20.199 19 19.966 19 19.5 19s-.699 0-.883.076a1 1 0 0 0-.54.541c-.077.184-.077.417-.077.883s0 .699.076.883a1 1 0 0 0 .541.54Z"/></g>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+            <!--    /HOBBIES SECTION-->
+        </section>
+
+        <section class="md:hidden bg-gray-100">
+            <div class="container max-w-screen-xl mx-auto py-6 px-4">
+                <!--    HOBBIES SECTION(MOBILE)-->
+                <div class="col-span-12 md:col-span-6 gap-5">
+                    <h3 class="text-2xl font-medium uppercase mb-5">Hobbies</h3>
+                    <ul class="flex flex-col font-medium text-sm gap-4 pl-4">
+                        <li class="flex gap-2 items-center">
+                            — Playing chess
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <g fill="none" fill-rule="evenodd"><path d="m12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M7 2h3c2.222 0 5.757 1.108 6.949 4.684c.545 1.636.322 3.047.096 4.481q-.03.18-.057.362c-.217 1.414-.43 3.078-.125 5.473H18a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1.106c.232-1.144.9-2.718 2.564-4.356c.182-.18.29-.387.335-.592A25 25 0 0 1 6.7 13.79a1.48 1.48 0 0 1-1.64-.316l-1.477-1.477a1.5 1.5 0 0 1-.188-1.893l3.451-5.176l-.74-1.48A1 1 0 0 1 7 2m2 7a1 1 0 1 0 0-2a1 1 0 0 0 0 2"/></g>
+                            </svg>
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            — Read a book
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M21.5 5.134a1 1 0 0 1 .493.748L22 6v13a1 1 0 0 1-1.5.866A8 8 0 0 0 13 19.6V4.426a10 10 0 0 1 8.5.708M11 4.427l.001 15.174a8 8 0 0 0-7.234.117l-.327.18l-.103.044l-.049.016l-.11.026l-.061.01L3 20h-.042l-.11-.012l-.077-.014l-.108-.032l-.126-.056l-.095-.056l-.089-.067l-.06-.056l-.073-.082l-.064-.089l-.022-.036l-.032-.06l-.044-.103l-.016-.049l-.026-.11l-.01-.061l-.004-.049L2 6a1 1 0 0 1 .5-.866a10 10 0 0 1 8.5-.707"/>
+                            </svg>
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            — Listening to music
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <g fill="none" fill-rule="evenodd"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M18.671 3.208A2 2 0 0 1 21 5.18V17a4 4 0 1 1-2-3.465V9.18L9 10.847V18q0 .09-.015.174A3.5 3.5 0 1 1 7 15.337v-8.49a2 2 0 0 1 1.671-1.973zM9 8.82l10-1.667V5.18L9 6.847z"/></g>
+                            </svg>
+                        </li>
+                        <li class="flex gap-2 items-center">
+                            — Solving algorithmic problems
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5"><path stroke-linecap="round" d="M10.5 2v2m3-2v2M8 6.5H6m2 3H6m12-3h-2m2 3h-2M13.333 4h-2.666C9.41 4 8.78 4 8.39 4.39C8 4.782 8 5.41 8 6.668v2.666c0 1.257 0 1.886.39 2.277c.391.39 1.02.39 2.277.39h2.666c1.257 0 1.886 0 2.277-.39c.39-.391.39-1.02.39-2.277V6.667c0-1.257 0-1.886-.39-2.276C15.219 4 14.59 4 13.333 4"/><path d="M3.617 21.924c.184.076.417.076.883.076s.699 0 .883-.076a1 1 0 0 0 .54-.541C6 21.199 6 20.966 6 20.5s0-.699-.076-.883a1 1 0 0 0-.541-.54C5.199 19 4.966 19 4.5 19s-.699 0-.883.076a1 1 0 0 0-.54.541C3 19.801 3 20.034 3 20.5s0 .699.076.883a1 1 0 0 0 .541.54Zm7.5 0c.184.076.417.076.883.076s.699 0 .883-.076a1 1 0 0 0 .54-.541c.077-.184.077-.417.077-.883s0-.699-.076-.883a1 1 0 0 0-.541-.54C12.699 19 12.466 19 12 19s-.699 0-.883.076a1 1 0 0 0-.54.541c-.077.184-.077.417-.077.883s0 .699.076.883a1 1 0 0 0 .541.54Z"/><path stroke-linecap="round" d="M12 19v-7m-7.5 7c0-1.404 0-2.107.337-2.611a2 2 0 0 1 .552-.552C5.893 15.5 6.596 15.5 8 15.5h8c1.404 0 2.107 0 2.611.337c.218.146.406.334.552.552c.337.504.337 1.207.337 2.611"/><path d="M18.617 21.924c.184.076.417.076.883.076s.699 0 .883-.076a1 1 0 0 0 .54-.541c.077-.184.077-.417.077-.883s0-.699-.076-.883a1 1 0 0 0-.541-.54C20.199 19 19.966 19 19.5 19s-.699 0-.883.076a1 1 0 0 0-.54.541c-.077.184-.077.417-.077.883s0 .699.076.883a1 1 0 0 0 .541.54Z"/></g>
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+                <!--    /HOBBIES SECTION(MOBILE)-->
+            </div>
+        </section>
+
+        <section class="md:hidden container max-w-screen-xl mx-auto py-6 px-4">
+            <!--    EDUCATION SECTION(MOBILE)-->
+            <div class="col-span-12 md:col-span-6 gap-5">
+                <h3 class="text-2xl font-medium uppercase mb-5">Education</h3>
+                <div class="grid grid-cols-12 items-center text-sm gap-5 pl-4">
+                    <div class="col-span-5 md:col-span-4 h-full font-semibold flex flex-col gap-4">
+                        <p>2024 - 2025</p>
+                        <p>2023 - 2027</p>
+                    </div>
+                    <div class="col-span-7 md:col-span-6 font-medium flex flex-col gap-4">
+                        <p>Kadirov Academy</p>
+                        <p>Applied mathematics (Bachelor of TerSU)</p>
+                    </div>
+                </div>
+            </div>
+            <!--    /EDUCATION SECTION(MOBILE)-->
+        </section>
+
+        <section class="bg-gray-100">
+            <div class="container max-w-screen-xl grid grid-cols-12 gap-5 px-4 md:px-10 mx-auto py-6">
+                <!--    EDUCATION SECTION-->
+                <div class="hidden md:table-column col-span-12 md:col-span-6 gap-5">
+                    <h3 class="text-2xl font-medium uppercase mb-5">Education</h3>
+                    <div class="grid grid-cols-12 items-center text-sm gap-5 pl-4">
+                        <div class="col-span-5 md:col-span-4 h-full font-semibold flex flex-col gap-4">
+                            <p>2024 - 2025</p>
+                            <p>2023 - 2027</p>
+                        </div>
+                        <div class="col-span-7 md:col-span-6 font-medium flex flex-col gap-4">
+                            <p>Kadirov Academy</p>
+                            <p>Applied mathematics (Bachelor of TerSU)</p>
+                        </div>
+                    </div>
+                </div>
+                <!--    /EDUCATION SECTION-->
+
+                <!--    LANGUAGES SECTION-->
+                <div class="col-span-12 md:col-span-6 gap-5">
+                    <h3 class="text-2xl font-medium uppercase mb-5">Languages</h3>
+                    <ul class="flex flex-col font-medium list-disc list-inside text-sm gap-4 pl-4">
+                        <li>Uzbek — native</li>
+                        <li>English — elementary</li>
+                        <li>Russian — intermediate</li>
+                    </ul>
+                </div>
+                <!--    /LANGUAGES SECTION-->
+            </div>
+        </section>
+
+<!--    PROJECTS SECTION-->
+        <section class="container max-w-screen-xl px-4 py-6 sm:p-10 mx-auto">
+            <h3 class="text-2xl font-medium uppercase mb-5">Projects</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-8">
+                <a href="https://github.com/Mansurkhan-03/ecobazar-front.git" class="flex items-end justify-center h-[180px] xs:h-[250px] sm:h-[300px] bg-[url('./images/Ecobazar.jpg')] rounded-xl bg-cover bg-center group hover:translate-z-2 hover:border-2 hover:border-blue-400">
+                    <span class="bg-white text-gray-800 px-5 py-2 mb-2 rounded-full opacity-75 font-medium group-hover:opacity-100 group-hover:bg-green-200/50 group-hover:text-white">
+                        Ecobazar
+                    </span>
+                </a>
+                <a href="https://github.com/Mansurkhan-03/Library.git" class="flex items-end justify-center h-[180px] xs:h-[250px] sm:h-[300px] bg-[url('./images/Library.jpg')] rounded-xl bg-cover bg-center group hover:translate-z-2 hover:border-2 hover:border-blue-400">
+                    <span class="bg-gray-100 text-gray-800 px-5 py-2 mb-2 rounded-full opacity-75 font-medium group-hover:opacity-100 group-hover:bg-gray-600/50 group-hover:text-white">
+                        Online Library
+                    </span>
+                </a>
+                <a href="https://github.com/Mansurkhan-03/CRM-project.git" class="flex items-end justify-center h-[180px] xs:h-[250px] sm:h-[300px] bg-[url('./images/crm-project.png')] rounded-xl bg-cover bg-center group hover:translate-z-2 hover:border-2 hover:border-blue-400">
+                    <span class="bg-white text-gray-800 px-5 py-2 mb-2 rounded-full opacity-75 font-medium group-hover:opacity-100 group-hover:bg-gray-800/70 group-hover:text-white">
+                        CRM SYSTEM
+                    </span>
+                </a>
+            </div>
+        </section>
+<!--    /PROJECTS SECTION-->
+
+<!--    FOOTER SECTION-->
+        <div class="bg-gray-100">
+            <footer class="container max-w-screen-xl mx-auto p-4  flex flex-col md:flex-row md:items-end justify-between gap-5 md:px-10">
+                <div  class="flex flex-col items-center md:items-start">
+                    <h3 class="font-semibold text-2xl mb-2">Contact us</h3>
+                    <div class="flex flex-col items-center md:flex-row">
+                        <a href="tel:+998(93)639-20-03" class="font-medium text-sm border-b py-1.5 hover:text-blue-400">+998 (93) 639-20-03</a>
+                        <span class="p-2">or</span>
+                        <a href="https://mail.google.com/mail/?view=cm&to=Proxy@gmail.com" class="font-medium text-sm border-b py-1.5">Mansurbekeshpulatov@gmail.com</a>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center">
+                    <h3 class="font-semibold text-2xl mb-1">Follow us</h3>
+                    <div class="flex items-center gap-3">
+                        <a href="https://www.facebook.com/">
+                            <svg class="group hover:text-primary" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle class="hidden group-hover:inline" cx="20" cy="20" r="20" fill="currentColor"/>
+                                <path class="group-hover:fill-white" d="M22.9978 13.9887H24.641V11.1267C24.3575 11.0878 23.3825 11 22.247 11C19.8778 11 18.2548 12.4902 18.2548 15.2292V17.75H15.6403V20.9495H18.2548V29H21.4603V20.9503H23.969L24.3673 17.7508H21.4595V15.5465C21.4603 14.6217 21.7093 13.9887 22.9978 13.9887Z" fill="#4D4D4D"/>
+                            </svg>
+                        </a>
+                        <a href="https://x.com/">
+                            <svg class="group hover:text-primary" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle class="hidden group-hover:inline" cx="20" cy="20" r="20" fill="currentColor"/>
+                                <path class="group-hover:fill-white" d="M29 14.4189C28.3306 14.7125 27.6174 14.9071 26.8737 15.0016C27.6388 14.5449 28.2226 13.8271 28.4971 12.962C27.7839 13.3873 26.9964 13.6876 26.1571 13.8553C25.4799 13.1341 24.5146 12.6875 23.4616 12.6875C21.4186 12.6875 19.7739 14.3458 19.7739 16.3786C19.7739 16.6711 19.7986 16.9524 19.8594 17.2201C16.7915 17.0705 14.0769 15.6001 12.2533 13.3603C11.9349 13.9126 11.7481 14.5449 11.7481 15.2255C11.7481 16.5035 12.4062 17.6364 13.3872 18.2923C12.7944 18.281 12.2127 18.1089 11.72 17.8378C11.72 17.849 11.72 17.8636 11.72 17.8783C11.72 19.6715 12.9991 21.161 14.6765 21.5041C14.3761 21.5863 14.0487 21.6256 13.709 21.6256C13.4727 21.6256 13.2342 21.6121 13.0104 21.5626C13.4885 23.024 14.8453 24.0984 16.4585 24.1333C15.203 25.1154 13.6089 25.7071 11.8831 25.7071C11.5805 25.7071 11.2902 25.6936 11 25.6565C12.6346 26.7106 14.5719 27.3125 16.661 27.3125C23.4515 27.3125 27.164 21.6875 27.164 16.8118C27.164 16.6486 27.1584 16.4911 27.1505 16.3348C27.8829 15.815 28.4982 15.1659 29 14.4189Z" fill="#4D4D4D"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.pinterest.com">
+                            <svg class="group hover:text-primary" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle class="hidden group-hover:inline" cx="20" cy="20" r="20" fill="currentColor"/>
+                                <path class="group-hover:fill-white" d="M20.2447 11C15.3114 11 12.6877 14.1614 12.6877 17.6085C12.6877 19.2072 13.581 21.2008 15.011 21.8331C15.2281 21.931 15.3462 21.8894 15.3946 21.688C15.4374 21.535 15.6253 20.7981 15.7164 20.4504C15.7445 20.339 15.7299 20.2423 15.6399 20.1377C15.1651 19.5886 14.7882 18.5885 14.7882 17.6502C14.7882 15.2459 16.6997 12.9115 19.9522 12.9115C22.7648 12.9115 24.7325 14.7385 24.7325 17.352C24.7325 20.3053 23.1698 22.3484 21.1391 22.3484C20.0152 22.3484 19.1782 21.4663 19.4437 20.375C19.7643 19.0756 20.3932 17.6783 20.3932 16.7411C20.3932 15.9007 19.9184 15.2054 18.9486 15.2054C17.8045 15.2054 16.8763 16.3384 16.8763 17.8594C16.8763 18.8259 17.2183 19.4784 17.2183 19.4784C17.2183 19.4784 16.0865 24.0506 15.8761 24.9045C15.5206 26.3502 15.9245 28.6914 15.9594 28.8928C15.9808 29.0042 16.1056 29.0391 16.1754 28.9479C16.2868 28.8017 17.6548 26.8497 18.0385 25.4389C18.178 24.9248 18.7506 22.84 18.7506 22.84C19.1275 23.5207 20.2155 24.0911 21.3743 24.0911C24.8214 24.0911 27.3123 21.0613 27.3123 17.3014C27.2999 13.6967 24.215 11 20.2447 11Z" fill="#4D4D4D"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/">
+                            <svg class="group hover:text-primary" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle class="hidden group-hover:inline" cx="20" cy="20" r="20" fill="currentColor"/>
+                                <g clip-path="url(#clip0_2644_5888)">
+                                    <path class="group-hover:fill-white" d="M28.9824 16.292C28.9402 15.3356 28.7855 14.6781 28.564 14.1084C28.3354 13.5036 27.9838 12.9621 27.5231 12.512C27.073 12.0549 26.528 11.6997 25.9302 11.4747C25.3571 11.2531 24.703 11.0985 23.7466 11.0563C22.7831 11.0106 22.4772 11 20.0334 11C17.5895 11 17.2836 11.0106 16.3237 11.0527C15.3672 11.0949 14.7097 11.2497 14.1401 11.4711C13.5352 11.6997 12.9937 12.0513 12.5436 12.512C12.0865 12.9621 11.7314 13.5072 11.5063 14.1049C11.2848 14.6781 11.1301 15.3321 11.0879 16.2885C11.0422 17.252 11.0316 17.5579 11.0316 20.0018C11.0316 22.4456 11.0422 22.7515 11.0844 23.7115C11.1265 24.6679 11.2813 25.3254 11.5029 25.8952C11.7314 26.4999 12.0865 27.0414 12.5436 27.4915C12.9937 27.9486 13.5388 28.3038 14.1365 28.5288C14.7097 28.7504 15.3637 28.905 16.3202 28.9472C17.2801 28.9895 17.5861 28.9999 20.0299 28.9999C22.4738 28.9999 22.7797 28.9895 23.7396 28.9472C24.696 28.905 25.3536 28.7504 25.9232 28.5288C27.1329 28.0611 28.0893 27.1047 28.557 25.8952C28.7784 25.322 28.9332 24.6679 28.9754 23.7115C29.0175 22.7515 29.0281 22.4456 29.0281 20.0018C29.0281 17.5579 29.0245 17.252 28.9824 16.292ZM27.3614 23.6411C27.3227 24.5202 27.175 24.9949 27.052 25.3114C26.7495 26.0956 26.1271 26.7179 25.343 27.0204C25.0265 27.1434 24.5484 27.2911 23.6727 27.3297C22.7233 27.372 22.4386 27.3824 20.0369 27.3824C17.6353 27.3824 17.347 27.372 16.401 27.3297C15.5219 27.2911 15.0472 27.1434 14.7307 27.0204C14.3405 26.8761 13.9853 26.6476 13.697 26.3487C13.3981 26.0568 13.1696 25.7052 13.0253 25.315C12.9023 24.9985 12.7546 24.5202 12.716 23.6447C12.6737 22.6953 12.6633 22.4104 12.6633 20.0088C12.6633 17.6071 12.6737 17.3188 12.716 16.373C12.7546 15.4939 12.9023 15.0192 13.0253 14.7027C13.1696 14.3123 13.3981 13.9573 13.7006 13.6688C13.9923 13.3699 14.3439 13.1414 14.7343 12.9973C15.0508 12.8742 15.5291 12.7266 16.4046 12.6878C17.354 12.6457 17.6388 12.6351 20.0404 12.6351C22.4456 12.6351 22.7303 12.6457 23.6763 12.6878C24.5554 12.7266 25.0301 12.8742 25.3466 12.9973C25.7368 13.1414 26.092 13.3699 26.3803 13.6688C26.6792 13.9607 26.9077 14.3123 27.052 14.7027C27.175 15.0192 27.3227 15.4973 27.3614 16.373C27.4036 17.3224 27.4142 17.6071 27.4142 20.0088C27.4142 22.4104 27.4036 22.6917 27.3614 23.6411Z" fill="#4D4D4D"/>
+                                    <path class="group-hover:fill-white" d="M20.0334 15.3779C17.4806 15.3779 15.4094 17.449 15.4094 20.0019C15.4094 22.5548 17.4806 24.6258 20.0334 24.6258C22.5863 24.6258 24.6573 22.5548 24.6573 20.0019C24.6573 17.449 22.5863 15.3779 20.0334 15.3779ZM20.0334 23.0013C18.3773 23.0013 17.0339 21.6581 17.0339 20.0019C17.0339 18.3456 18.3773 17.0024 20.0334 17.0024C21.6896 17.0024 23.0328 18.3456 23.0328 20.0019C23.0328 21.6581 21.6896 23.0013 20.0334 23.0013Z" fill="#4D4D4D"/>
+                                    <path class="group-hover:fill-white" d="M25.9197 15.1947C25.9197 15.7908 25.4364 16.2742 24.8401 16.2742C24.244 16.2742 23.7606 15.7908 23.7606 15.1947C23.7606 14.5985 24.244 14.1152 24.8401 14.1152C25.4364 14.1152 25.9197 14.5985 25.9197 15.1947Z" fill="#4D4D4D"/>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2644_5888">
+                                        <rect width="18" height="18" fill="white" transform="translate(11 11)"/>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+<!--    /FOOTER SECTION-->
+    </body>
+</html>
